@@ -1,0 +1,16 @@
+{
+    "general": {
+        "name": "Name Surname",
+        "headline": "Short headline about yourself",
+        "about": [
+            "Hey there! 👋",
+            "This should be a first short paragraph about yourself. Tell us something about yourself, your education or your career.",
+            "And why not adding a second paragraph? Then you can tell us more about your hobbies and your life. Some people will read it and be happy to get to know you a little better."
+        ],
+        "socials": {
+            "email": "example@mail.com",
+            "linkedin": "https://www.linkedin.com/",
+            "github": "https://github.com/"
+        }
+    }
+}
