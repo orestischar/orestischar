@@ -12,9 +12,9 @@ module.exports = {
             primary: {
                 // 100: "#ff6b35",
                 // 200: "#ff7d4b",
-                300: "#4183C4",
-                // 400: "#ff9f77",
-                500: "#4183C4",
+                300: "#e1e7f0",
+                400: "#66b2b2",
+                500: "#66b2b2",
                 // 600: "#ffc0a3",
             },
             surface: {
@@ -22,10 +22,10 @@ module.exports = {
                 // 200: "#1f1e42",
                 // 300: "#393658",
                 // 400: "#524f6e",
-                // 500: "#6d6a84",
-                600: "#89869c",
+                500: "#d6d5dd",
+                600: "#80869c",
             },
-            "on-background": "#ffffff",
+            "on-background": "#e1e7f0",
         },
         extend: {
             backgroundImage: {

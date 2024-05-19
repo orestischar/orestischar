@@ -1,5 +1,6 @@
 import React from "react";
 import About from "@/components/about";
+import Publications from "@/components/publications/publications";
 import Header from "@/components/header";
 import Credits from "@/components/credits";
 import { promises as fs } from "fs";
@@ -17,6 +18,7 @@ export default async function Home() {
                 <Header data={data.general}></Header>
                 <div className="lg:pl-[50%]">
                     <About data={data.general}></About>
+                    <Publications data={data.publications}></Publications>
                     <Credits data={data.general}></Credits>
                 </div>
             </div>
