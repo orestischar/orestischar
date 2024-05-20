@@ -1,17 +1,15 @@
 {
     "general": {
-        "name": "Edward Chen",
-        "headline": "CS PhD @ Carnegie Mellon University",
-        "email": "ejchen [at] cmu [dot] edu",
+        "name": "Orestis Chardouvelis",
+        "headline": "Jobs Plz",
+        "email": "orestischar [at] gmail [dot] com",
         "about": [
-            "Hi, I'm Edward!",
-            "I'm a PhD student studying computer systems and security at Carnegie Mellon University, co-advised by Wenting Zheng and Fraser Brown.",
-            "My primary research is on building secure and optimized systems for various cryptographic protocols."
+            "wow im soooo happy!!!"
         ],
         "socials": {
-            "email": "ejchen@cmu.edu",
-            "linkedin": "https://www.linkedin.com/in/edwjchen/",
-            "github": "https://github.com/edwjchen"
+            "email": "orestischar@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/orestischar/",
+            "github": "https://github.com/orestischar"
         }
     },
     "publications": [

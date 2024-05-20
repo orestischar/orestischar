@@ -16,9 +16,6 @@ const Socials = (props) => {
                 <a href={props.data.linkedin} target="_blank" rel="noopener noreferrer" className="flex flex-row content-center justify-center hover:text-primary-500">
                     <FontAwesomeIcon icon={faLinkedin} width={30} height={30} className='object-contain object-top mr-3'/>
                 </a>
-                <a href={props.data.flickr} target="_blank" rel="noopener noreferrer" className="flex flex-row content-center justify-center hover:text-primary-500">
-                    <FontAwesomeIcon icon={faFlickr} width={30} height={30} className='object-contain object-top mr-3'/>
-                </a>
                 <a href={props.data.instagram} target="_blank" rel="noopener noreferrer" className="flex flex-row content-center justify-center hover:text-primary-500">
                     <FontAwesomeIcon icon={faInstagram} width={30} height={30} className='object-contain object-top mr-3'/>
                 </a>
