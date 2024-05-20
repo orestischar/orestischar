@@ -1,5 +1,4 @@
 import React from "react";
-import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin, faGithub, faFlickr, faInstagram} from '@fortawesome/free-brands-svg-icons'
@@ -24,7 +23,6 @@ const Socials = (props) => {
                     <FontAwesomeIcon icon={faInstagram} width={30} height={30} className='object-contain object-top mr-3'/>
                 </a>
             </div>
-            
         </div>
     )
 }
