@@ -2,6 +2,7 @@
     "general": {
         "name": "Edward Chen",
         "headline": "CS PhD @ Carnegie Mellon University",
+        "email": "ejchen [at] cmu [dot] edu",
         "about": [
             "Hi, I'm Edward!",
             "I'm a PhD student studying computer systems and security at Carnegie Mellon University, co-advised by Wenting Zheng and Fraser Brown.",

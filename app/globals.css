@@ -13,4 +13,9 @@
   h1, h2, h3, h4, h5, h6 {
     @apply font-bold font-body 
   }
+
+  #publications{
+    margin-top: -64px;
+    padding-top: 64px;
+  }
 }
