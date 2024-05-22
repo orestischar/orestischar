@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
-import {faLinkedin, faGithub, faFlickr, faInstagram} from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin, faGithub, faInstagram} from '@fortawesome/free-brands-svg-icons'
 
 const Socials = (props) => {
     return (
@@ -16,9 +16,9 @@ const Socials = (props) => {
                 <a href={props.data.linkedin} target="_blank" rel="noopener noreferrer" className="flex flex-row content-center justify-center hover:text-primary-500">
                     <FontAwesomeIcon icon={faLinkedin} width={30} height={30} className='object-contain object-top mr-3'/>
                 </a>
-                <a href={props.data.instagram} target="_blank" rel="noopener noreferrer" className="flex flex-row content-center justify-center hover:text-primary-500">
+                {/* <a href={props.data.instagram} target="_blank" rel="noopener noreferrer" className="flex flex-row content-center justify-center hover:text-primary-500">
                     <FontAwesomeIcon icon={faInstagram} width={30} height={30} className='object-contain object-top mr-3'/>
-                </a>
+                </a> */}
             </div>
         </div>
     )

@@ -13,7 +13,7 @@ function PublicationItem(props) {
                 <div className='mb-2 text-primary-400'>{props.venue} | {props.year}</div>
                 <div className='text-surface-600 mb-4'>{props.description}</div>
 
-                <div className='flex flex-row items-center'>
+                {/* <div className='flex flex-row items-center'>
                     <div className='flex flex-row'>
                         <a href={props.href} target="_blank" rel="noopener noreferrer" className="hover:text-primary-500">
                             <FontAwesomeIcon icon={faFileLines} width={28} height={28} className='object-contain object-top mr-3'/>
@@ -22,7 +22,7 @@ function PublicationItem(props) {
                             <FontAwesomeIcon icon={faGithub} width={28} height={28}/>
                         </a>
                     </div>
-                </div>
+                </div> */}
             </div> 
         </div>
     )
