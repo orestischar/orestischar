@@ -4,7 +4,8 @@ import NextCors from 'nextjs-cors'
 export default function Nim() {
     
     async function init() {
-        const response = await NextCors(req, res, {
+        
+        await NextCors(req, res, {
             method: "GET",
             origin: "http://localhost:5000/init",
             headers: {

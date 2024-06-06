@@ -7,7 +7,7 @@ app = Flask(__name__)
 s1 = 0
 s2 = 0
 
-@app.route("/", methods=['GET'])
+@app.route("/init", methods=['GET'])
 def initialize():
     print("INITIALIZED CALLED")
     s1, s2 = random.randint(1, 20), random.randint(1, 20)
