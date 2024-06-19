@@ -3,6 +3,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faFileLines} from '@fortawesome/free-solid-svg-icons'
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
+import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 
 function PublicationItem(props) {
@@ -13,16 +14,16 @@ function PublicationItem(props) {
                 <div className='mb-2 text-primary-500'>{props.venue} | {props.year}</div>
                 <div className='text-surface-600 mb-4'>{props.description}</div>
 
-                {/* <div className='flex flex-row items-center'>
+                <div className='flex flex-row items-center'>
                     <div className='flex flex-row'>
                         <a href={props.href} target="_blank" rel="noopener noreferrer" className="hover:text-primary-500">
-                            <FontAwesomeIcon icon={faFileLines} width={28} height={28} className='object-contain object-top mr-3'/>
+                                <FontAwesomeIcon icon={faFileLines} width={28} height={28} className='object-contain object-top mr-3'/>
                         </a>
-                        <a href={props.github} target="_blank" rel="noopener noreferrer" className="hover:text-primary-500">
-                            <FontAwesomeIcon icon={faGithub} width={28} height={28}/>
-                        </a>
+                        <a href={props.youtube} target="_blank" rel="noopener noreferrer" className="hover:text-primary-500">
+                        <FontAwesomeIcon icon={faYoutube} width={28} height={28}/>
+                    </a>
                     </div>
-                </div> */}
+                </div>
             </div> 
         </div>
     )

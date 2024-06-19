@@ -12,6 +12,7 @@ const Publications = (props) => {
                     href={object.href}
                     venue={object.venue}
                     year={object.year}
+                    youtube={object.youtube}
                     description={object.description}
                 />
             })}

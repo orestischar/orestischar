@@ -18,20 +18,23 @@
             "href": "https://eprint.iacr.org/2023/1640.pdf",
             "venue": "Cryptology ePrint Archive",
             "year": "2023",
+            "youtube": "not available",
             "description": "In this work, we construct a secure key leasing scheme to lease a decryption key of a (classical) public-key homomorphic encryption scheme from standard lattice assumptions."
         },
         {
             "title": "Rate-1 Quantum Fully Homomorphic Encryption",
-            "href": "https://eprint.iacr.org/2020/1454",
+            "href": "https://eprint.iacr.org/2020/1454.pdf",
             "venue": "TCC",
             "year": "2021",
+            "youtube": "https://www.youtube.com/watch?v=sQuJk44oEYA",
             "description": "In this work we show that, assuming the quantum hardness of LWE, there exists an Secure Function Evaluation protocol for quantum computation with communication complexity (||ψ⟩| + |C(|ψ⟩)|) ⋅ (1 + o(1)), which is nearly optimal."
         },
         {
             "title": "The Round Complexity of Quantum Zero-Knowledge",
-            "href": "https://eprint.iacr.org/2021/918",
+            "href": "https://eprint.iacr.org/2021/918.pdf",
             "venue": "TCC",
             "year": "2021",
+            "youtube": "https://www.youtube.com/watch?v=9t6bMyY2TjY",
             "description": "We study the round complexity of zero-knowledge for QMA, constructing 2-Round WI arguments, 4-Round ZK arguments and 2-Round ZK in the timing model, matching the optimal round complexity for the corresponding post-quantum NP protocols."
         }
     ]
